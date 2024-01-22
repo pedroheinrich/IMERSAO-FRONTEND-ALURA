@@ -12,21 +12,21 @@ body {
     
 }
 
-.sidebar_navigation1, .library {
+.sidebar_navigation, .library {
     background-color: #121212;
     border-radius:  8px;
     padding: 16px 0 0 16px;
     margin-bottom: 8px;
 }
 
-.sidebar_navigation1 .logo {
+.sidebar_navigation .logo {
     background-color: #121212;
     display: flex;
     border-radius: 8px;
     padding: 16px 0 0 16px;
 }
 
-.sidebar_navigation1 .logo img {
+.sidebar_navigation .logo img {
     width: 80px;
 
 }
@@ -68,4 +68,53 @@ body {
     font-family: "DM Sans", sans-serif;
 
 }
+.playlist, .podcast{
+    background-color: rgb(49, 49, 49);
+    display: block;
+    border-radius: 8px;
+    padding: 20px 0 20px 16px;
+    margin-top: 20px;
+}
 
+.library_span{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+    font-family: "DM Sans", sans-serif;
+    
+    
+}
+.library_p{
+    color: #fff;
+    text-decoration: none;
+    font-weight: 100;
+    font-size: 12px;
+    font-family: "DM Sans", sans-serif;
+    margin-top: 10px;
+}
+
+.botao{
+    color: #121212;
+    font-family: sans-serif;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 8px;
+    margin: 10px 0;
+    border: none;
+}
+
+.botaoidioma {
+    color: #b3b3b3;
+    background-color: #121212;
+    font-family: sans-serif;
+    border-radius: 30px;
+    font-size: 12px;
+    font-weight: 600;
+    padding: 10px;
+    margin: 10px 0;
+    border: 0.5px solid #b3b3b3;
+    
+
+}
