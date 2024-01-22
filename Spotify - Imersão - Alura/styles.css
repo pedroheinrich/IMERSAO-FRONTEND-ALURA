@@ -10,8 +10,6 @@ body {
     padding: 12px;
     width: 300px;
     
-
-
 }
 
 .sidebar_navigation1, .library {
@@ -56,6 +54,11 @@ body {
 
 }
 
+.library_link{
+    display: flex;
+    justify-content: space-between;
+    
+}
 
 .library_link a {
     color: #b3b3b3;
